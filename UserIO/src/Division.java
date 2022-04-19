@@ -9,7 +9,7 @@ public class Division {
         int second = myObj.nextInt();
         int sum =first+second;
         int product=first*second;
-        double div= product/sum ;
+        double div= sum/product ;
         System.out.println("The sum of two numbers is:"+sum);
         System.out.println("The sum of two numbers is:"+product);
         System.out.println("The sum of two numbers is:"+div);
