@@ -5,18 +5,18 @@ public class QuadraticEquation {
     public static void main(String[] args) {
         double FirstRoot=0, SecondRoot=0;
         Scanner scanner= new Scanner(System.in);
-        System.out.println("Enter the value of a ::");
+        System.out.println("Enter the value of a :");
         double a = scanner.nextDouble();
 
-        System.out.println("Enter the value of b ::");
+        System.out.println("Enter the value of b :");
         double b = scanner.nextDouble();
 
-        System.out.println("Enter the value of c ::");
+        System.out.println("Enter the value of c :");
         double c = scanner.nextDouble();
 
         double determinant = (b*b)-(4*a*c);
         double sqrt = Math.sqrt(determinant);
-
+        System.out.println(determinant);
         if(determinant>0){
             FirstRoot = (-b + sqrt)/(2*a);
             SecondRoot = (-b - sqrt)/(2*a);

@@ -21,7 +21,7 @@ public class WeekDayInNumber {
         } else if(weekNumber == 7) {
             System.out.println("Saturday");
         } else {
-            System.out.println("No week days");
+            System.out.println("Invalid week days");
         }
 
     }
