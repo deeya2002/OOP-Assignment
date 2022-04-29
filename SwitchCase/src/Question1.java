@@ -20,9 +20,9 @@ import java.util.Scanner;
                 System.out.print("Enter the marks of computer:: ");
                 double computer = scanner.nextDouble();
 
-                double marks = (computer + mathematics + biology + chemistry + physics) / 5;
+                double average = (computer + mathematics + biology + chemistry + physics) / 5;
 
-                switch ((marks >= 90) ? 1 : (marks >= 80) ? 2 : (marks >= 70) ? 3 : (marks >= 60) ? 4 : (marks >= 40) ? 5 : (marks < 40) ? 5 : 0) {
+                switch ((average>= 90) ? 1 : (average >= 80) ? 2 : (average >= 70) ? 3 : (average >= 60) ? 4 : (average >= 40) ? 5 : (average < 40) ? 6 : 0) {
 
                     case 1:
                         System.out.print("Grade A");

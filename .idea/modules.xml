@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConditionalStatement/ConditionalStatement.iml" filepath="$PROJECT_DIR$/ConditionalStatement/ConditionalStatement.iml" />
       <module fileurl="file://$PROJECT_DIR$/DialogBoxes/DialogBoxes.iml" filepath="$PROJECT_DIR$/DialogBoxes/DialogBoxes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForLoop/ForLoop.iml" filepath="$PROJECT_DIR$/ForLoop/ForLoop.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP-Assignment.iml" filepath="$PROJECT_DIR$/OOP-Assignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwitchCase/SwitchCase.iml" filepath="$PROJECT_DIR$/SwitchCase/SwitchCase.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserIO/UserIO.iml" filepath="$PROJECT_DIR$/UserIO/UserIO.iml" />
