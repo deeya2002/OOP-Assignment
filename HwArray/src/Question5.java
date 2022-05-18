@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Question5 {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter the number of element in the array: ");
+            System.out.print("Enter the array: ");
             int num = scanner.nextInt();
             int[] a = new int[num];
             for(int i= 0 ; i<a.length;i++){
@@ -14,9 +14,9 @@ public class Question5 {
                 a[i]=scanner.nextInt();
             }
             System.out.println(Arrays.toString(a));
-            System.out.println(sumFactor5n11(a));
+            System.out.println(sumFactor5And11(a));
         }
-        public static int sumFactor5n11(int[] args){
+        public static int sumFactor5And11(int[] args){
             int sum=0;
             for(int i=0; i<args.length;i++){
                 if(args[i]%5==0&&args[i]%11==0){
