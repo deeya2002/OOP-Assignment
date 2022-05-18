@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class Question6 {
         public static void main(String[] args) {
-            System.out.println(reverseNumber(12345));
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter the number");
+            int num = scanner.nextInt();
+            System.out.println(reverseNumber(num));
         }
         static int reverseNumber(int num){
             int rev=0;
